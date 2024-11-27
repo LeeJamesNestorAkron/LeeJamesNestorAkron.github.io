@@ -4,88 +4,403 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Lee James Nestor Design Portfolio</title>
+    <title>xxx Design Portfolio</title>
     <!-- The source for the CSS, Java script and Jquery, in that order -->
-    <link rel="stylesheet" type="text/css" href="XMBCSS.css" />
-    <script src="XMBJS.js"></script>
+    <link rel="stylesheet" type="text/css" href="designPortfolioCSS.css" />
+    <script src="designPortfolioJS.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <body>
-    <div class = "titleSlide" >
-    <h1 class="titleSlideTitle">
-        Design Portfolio of Lee James Nestor
+<div id = "titleSlide" >
+    <div id="titleSlideText">
+    <h1 id="titleSlideName">
+        xxxx
     </h1>
-    <img src="" class="portrait" id="1"/>
-    <img src="" class="demoPicTitle" id="1"/>
-    <img src="" class="demoPicTitle" id="2"/>
-    <img src="" class="demoPicTitle" id="3"/>
-    <img src="" class="demoPicTitle" id="4"/>
+    <h2 id="titleSlideSubTitle">
+        Computer Engineer, Mathematician
+    </h2>
+    <h3 id="titleSlideTitle">
+    Design Portfolio
+    </h3>
+</div>
+    <div id=titleSlideImages>
+        <div>
+    <img src="images/NeRFHVAC.png" class="demoPic" id="Fig1"/>
+    Figure 1: NeRF Rendering of HVAC System
     </div>
-    <div class="slide" id="1">
-        <h1 class="header" id="1">
-            Project 1
-        </h1>
-        <p class="problem" id="1">
-            Problem
-        </p>
-        <p class="solution" id="1">
-            Solution
-        </p>
-        <p class="source" id="1">
-            Source
-        </p>
-        
-        <img src="" class="demoPic" id="1"/>
-        <img src="" class="demoPic" id="2"/>
-        <img src="" class="demoVideo" id="1"/>
+    <div>
+        <img src="images\202324NASARoboticsRobotCad.png" class="demoPic" id="Fig2"/>
+        Figure 2:CAD Model of a Mining Robot 
     </div>
-    
-    <div class="slide" id="2">
-        <h1 class="header" id="2">
-            Project 2
-        </h1>
-        <p class="problem" id="2">
-            Problem
-        </p>
-        <p class="solution" id="2">
-            Solution
-        </p>
-        <p class="source" id="2">
-            Source
-        </p>
-        
-        <img src="" class="demoPic" id="3"/>
-        <img src="" class="demoPic" id="4"/>
-        <img src="" class="demoVideo" id="2"/>
+    <div>
+        <img src="images\XMBStartPage.png" class="demoPic" id="Fig3"/>
+    Figure 3:Recreation of XMB Home Screen
     </div>
+    <div>
+        <img src="images\BlackholeSim1.png" class="demoPic" id="Fig4"/>
+    Figure 4: particle Simulation of Bodies About a Black Hole
+    </div> 
+</div>   
+</div>
 
-    <div class="slide" id="3">
-        <h1 class="header" id="3">
-            Project 1
-        </h1>
-        <p class="problem" id="3">
-            Problem
-        </p>
-        <p class="solution" id="3">
-            Solution
-        </p>
-        <p class="source" id="3">
-            Source
-        </p>
-        
-        <img src="" class="demoPic" id="5"/>
-        <img src="" class="demoPic" id="6"/>
-        <img src="" class="demoVideo" id="3"/>
-    </div>
-    
-    <div class = "endSlide" >
-        <h1 class="endSlideTitle">
-            Design Portfolio of Lee James Nestor
-        </h1>
-        <div class="Sources">
+<div class="bodySlide" id="aboutMeSlide">
+    <h1 id="aboutMe">
+        About Me
+    </h1>
+    <h2 id="aboutMeInfo">
+        I’m an engineer and mathematician whose passions range from Computer 
+    Architectures to Relativistic Physics. I have experience with embedded systems 
+    such as Microcontrollers, Single Board Computers, and FPGAs. I have worked with 
+    a wide plethora of programming languages such as C, C++, Python, Matlab, and 
+    more. I have also done work with mathematical modeling, numerical system 
+    simulation and analysis.
+    </h2>
+</div>
 
+<div class="bodySlide" id="engineeringWorkSlide">
+    <h1 id="engineeringWork">
+        Engineering Work
+    </h1>
+</div>
+
+<div class="bodySlide" id="bodySlide1">
+
+        <div class="slideText">
+        <h1 class="header" id="headerSlide1">
+            Autonomous Photogrammetric 
+            Data Collection and Analyzation
+        </h1>
+
+        <dl class="problemSolutionSource" id="PBSSlide1">
+            <dt>Problem</dt>
+            <dd>Structural Damage or Environmental Hazard 
+                making the area unsafe for human 
+                investigation</dd>
+            <dt>Solution</dt>
+            <dd>Navigation using conventional Simultaneous 
+                Localization and Mapping Techniques</dd>
+            <dd>Photogrammetric Data Processing with AI, 
+                using Neural Radiance Fields or (NeRF) 
+                combined with COLMAP 
+                (Structure-from-Motion and Multi-View Stereo 
+                Reconstruction)</dd>
+                <dd>Analyzation of the generated model using 
+                    simple Finite Element Analysis (FEA) for 
+                    Structural Integrity</dd>
+
+            <dt>Source</dt>
+            <dd>https://github.com/colmap/colmap</dd>
+            <dd>https://github.com/NVlabs/instant-ngp</dd>
+            </dl>
         </div>
+        <div class="bodySlideImages">
+        <div>
+            <img src="images\NeRFCokeCanNutrionalLabel.png" class="demoPic" id="Fig5"/>
+            Figure 5: NeRF Rendering Text on a Coke-a-Cola Can</div>
+            <div>
+                <img src="images\NeRFCokeCanReflectiveTop.png" class="demoPic" id="Fig6"/>
+                Figure 6: NeRF Rendering reflective surface on a Coke-a-Cola Can
+                </div>
+                <div>
+                    <img src="images\MATLABStlMesh.png" class="demoPic" id="Fig7"/>
+                    Figure 7: Matlab display of an STL Model
+                    </div>
+                    <div>
+                        <img src="images\NeRFHVAC.png" class="demoPic" id="Fig8"/>
+                        Figure 8: NeRF rendering of an HVAC System
+                        </div>
+                        <div>
+                            <img src="images\MATLABStressAnalysis.png" class="demoPic" id="Fig9"/>
+                            Figure 9: FEA of a cube with pressure applied
+                            </div>
+                            <div>
+                                <img src="images\HVACColmap.png" class="demoPic" id="Fig10"/>
+                                Figure 10: COLMap Program with generated camera positions and angles </div>
+                            </div>
+</div>
+  
+
+<div class="bodySlide" id="bodySlide2">
+    <div class="slideText">
+    <h1 class="header" id="headerSlide2">
+        Autonomous Damage and 
+        Structure Scanning Drone
+    </h1>
+
+    <dl class="problemSolutionSource" id="PBSSlide2">
+        <dt>Problem</dt>
+        <dd>Structural Damage or Environmental Hazard 
+            making the area unsafe for human investigation</dd>
+        <dt>Solution</dt>
+        <dd>Navigation using an embedded system featuring a 
+            Raspberry Pi 3b+ SBC and a Mateksys F405-VTOL 
+            working together with Ardupilot firmware</dd>
+        <dd>Data collection with an on-board camera and 
+            instImplemented network for data transmission back 
+            to a base computer for processing and manual 
+            drone control</dd>
+            <dd>Base program for receiving this data and 
+                presenting it to the user</dd>
+
+        <dt>Source</dt>
+        <dd>https://github.com/ArduPilot/ardupilot</dd>
+        </dl>
+        </div>
+        <div class="bodySlideImages">
+    <div>
+        <img src="images\CameraTest.png" class="demoPic" id="Fig11"/>
+        Figure 11: Picture of the flight controller and connected motors taken with the on board camera
+    </div>
+        <div>
+            <img src="images\DronePrototype.png" class="demoPic" id="Fig12"/>
+            Figure 12: Complete prototype drone
+            </div>
+            <div>
+                <img src="images\HardwareBlockDiagram.png" class="demoPic" id="Fig13"/>
+                Figure 13:  Block Diagram of the Hardware structure
+                </div>
+                <div>
+                    <img src="images\ComputationalBlockDiagram.png" class="demoPic" id="Fig14"/>
+                    Figure 14: Block diagram the data processing system
+                    </div>
+                    <div>
+                        <img src="images\Ardupilot.png" class="demoPic" id="Fig15"/>
+                        Figure 15: Ardupilot autopilot route for around an University building
+                        </div>
+                        <div>
+                            <img src="images\AmberGui.png" class="demoPic" id="Fig16"/>
+                            Figure 16: User Interface </div>
+</div>
+</div>
+
+<div class="bodySlide" id="bodySlide3">
+    <div class="slideText">
+    <h1 class="header" id="headerSlide3">
+        The University of Akron NASA 
+Robotics Team Softwaree
+    </h1>
+
+    <dl class="problemSolutionSource" id="PBSSlide3">
+        <dt>Problem</dt>
+        <dd>To construct a robot to autonomously navigate an 
+            arena simulating the surface of the moon and 
+            proceed to dig soil and deposit to construct a berm</dd>
+        <dt>Solution</dt>
+        <dd>            proceed to dig soil and deposit to construct a berm</dd>
+    </dd>
+        <dd>Development of an embedded system, here a 
+            Jetson Nano, to interface with the wireless 
+            controller and the electrical components of the 
+            robot</dd>
+            <dd>Analysis of the design requirements to properly 
+                create the software to work within</dd>
+                <dd>Research and development into autonomous 
+                    systems and mapping techniques using Robotic 
+                    Operating System or ROS</dd>
+
+        <dt>Source</dt>
+        <dd>https://github.com/UA-NASA-Robotics</dd>
+        <dd>https://github.com/ros/ros</dd>
+        </dl>
+        </div>
+        <div class="bodySlideImages">
+    <div>
+        <img src="images\202324NASARoboticsRobotCad.png" class="demoPic" id="Fig17"/>
+        Figure 17: CAD Rendering of UA NASA Robotics Mining Team 2023-2024 Robot, Software written by Software Team
+    </div>
+        <div>
+            <img src="images\NASARoboticsTeamTransportpng.png" class="demoPic" id="Fig18"/>
+            Figure 18: Team members carrying the robot for testing
+            </div>
+            <div>
+                <img src="images\20232024NASARoboticsGameplan.png" class="demoPic" id="Fig19"/>
+                Figure 19: Planned routing for navigating the arena
+                </div>
+                <div>
+                    <img src="images\202223NASARoboticsRobotCad.png" class="demoPic" id="Fig20"/>
+                    Figure 20: CAD Rendering of UA NASA Robotics Mining Team 2022-2023 Robot, software written by xxx
+                    </div>
+                    <div>
+                        <img src="images\JetsonNano.png" class="demoPic" id="Fig21"/>
+                        Figure 21: Jetson Nano SBC
+                        </div>
+                        <div>
+                            <img src="images\ROS.png" class="demoPic" id="Fig22"/>
+                            Figure 22: Robotic Operating System used for governing autonomy </div>
+                        </div>
+</div>
+
+<div class="bodySlide" id="bodySlide4">
+    <div class="slideText">
+    <h1 class="header" id="headerSlide4">
+        The University of Akron NASA 
+Robotics Team Software Head Lead
+    </h1>
+
+    <dl class="problemSolutionSource" id="PBSSlide4">
+        <dt>Problem</dt>
+        <dd>Managing and coordination of a team of 20+ 
+            people while also engaging them and properly 
+            utilizing their time</dd>
+        <dt>Solution</dt>
+        <dd>Regular stand-up meetings for coordination and 
+            re-alignment of goals and development process</dd>
+        <dd>Team meetings for group organization and 
+            presentation of current status</dd>
+            <dd>Development of extensive documentation and 
+                employment of software engineering techniques</dd>
+                <dd>Using github and setting up a system for team 
+                    members to be kept aware of the current projects 
+                    and their potential difficult</dd>
+
+        <dt>Source</dt>
+        <dd>https://github.com/ArduPilot/ardupilot</dd>
+        <dd>https://github.com/orgs/UA-NASA-Robotics/projec
+            ts?query=is%3Aopen</dd>
+        </dl>
+    </div>
+        <div class="bodySlideImages">
+    <div>
+        <img src="images\NASAROBOTICSElectricalTeamSoldering.png" class="demoPic" id="Fig23"/>
+        Figure 23: Electrical/Software Members Soldering
+    </div>
+        <div>
+            <img src="images\NASARoboticsSoftwareTeamCoding.png" class="demoPic" id="Fig24"/>
+            Figure 24: Software Member working on SBC
+            </div>
+            <div>
+                <img src="images\NASARoboticsSoftwareTeamMeeting.png" class="demoPic" id="Fig25"/>
+                Figure 25: Software Team photo
+                </div>
+                <div>
+                    <img src="images\NASARoboticsGithubQuestboard.png" class="demoPic" id="Fig26"/>
+                    Figure 26: Github project organization
+                    </div>
+                    <div>
+                        <img src="images\NASARoboticsRobotTransport2.png" class="demoPic" id="Fig27"/>
+                        Figure 27: Team Members transporting the Robo
+                        </div>
+                        <div>
+                            <img src="images\NASARoboticsGithubPage.png" class="demoPic" id="Fig28"/>
+                            Figure 28: University of Akron NASA Robotics Mining Team Github Page </div>
+</div>
+</div>
+
+<div class="bodySlide" id="bodySlide5">
+    <div class="slideText">
+    <h1 class="header" id="headerSlide5">
+        Custom Playstation 3 Inspired 
+        Webpage
+    </h1>
+
+    <dl class="problemSolutionSource" id="PBSSlide5">
+        <dt>Problem</dt>
+        <dd>There is a need for a homepage for web browsing 
+            that has quick access for a wide variety of links 
+            while also presenting relevant information</dd>
+        <dt>Solution</dt>
+        <dd>Utilizing HTML, CSS and JS to design an implement 
+            a web page that can incorporate all of these 
+            requirements</dd>
+        <dd>Use the Playstation 3 home screen as inspiration 
+            for a way to organize and present different links</dd>
+            <dd>Allow the icons to expand with user input such as a 
+                mouse hover</dd>
+
+        <dt>Source</dt>
+        <dd>https://github.com/xxx/Playsta
+            tion3StartPag</dd>
+        </dl>
+    </div>
+        <div class="bodySlideImages">
+    <div>
+        <img src="images\XMBStartPage.png" class="demoPic" id="Fig29"/>
+        Figure 29: Screenshot of the startpage, written in HTML, CSS, and JS
+    </div>
+        <div>
+            <img src="images\XMBTemperature.png" class="demoPic" id="Fig30"/>
+            Figure 30: Weather data pulled from the internet
+            </div>
+            <div>
+                <img src="images\XMBOriginal.png" class="demoPic" id="Fig31"/>
+                Figure 31: Original home screen the design is based off of
+                </div>
+                <div>
+                    <img src="images\XMBMedia.png" class="demoPic" id="Fig32"/>
+                    Figure 32: Icon hovered over with mouse cursor presents clickable link
+                    </div>
+                    <div>
+                        <img src="images\XMBTimeWeather.png" class="demoPic" id="Fig33"/>
+                        Figure 33: Time, Data, and Weather data presented
+                        </div>
+
+</div>
+</div>
+
+<div class="bodySlide" id="bodySlide6">
+    <div class="slideText">
+    <h1 class="header" id="headerSlide6">
+        Schwarzschild Metric Based 
+        Black Hole Simulation
+
+    </h1>
+
+    <dl class="problemSolutionSource" id="PBSSlide6">
+        <dt>Problem</dt>
+        <dd>A lack of understanding of general relativistic effects 
+            around a black hole, or an object whose Schwarzschild 
+            Radius is outside its physical body</dd>
+        <dt>Solution</dt>
+        <dd>Develop and design a numerical simulation to solve and 
+            display a particle affected by a black hole</dd>
+        <dd>Derive and understand Schwarzschild geodesics in 
+            order to create a set of differential equations to solve 
+            numerically</dd>
+            <dd>Implement an 4th order Runge-Kutta numerical solver to 
+                evaluate the system of equations</dd>
+                <dd>Display and render the particles using OpenGL rendering</dd>
+
+        <dt>Source</dt>
+        <dd>https://github.com/xxx/schwarzchildBlackhole</dd>
+        <dd>https://en.wikipedia.org/wiki/Schwarzschild_geodesics</dd>
+        </dl>
+        </div>
+        <div class="bodySlideImages">
+    <div>
+        <img src="images\BlackholeSim1.png" class="demoPic" id="Fig34"/>
+        Figure 34: Example simulation of large mass particles orbiting a black hole
+    </div>
+        <div>
+            <img src="images\BlackholeSim2.png" class="demoPic" id="Fig35"/>
+            Figure 35: Second example of large mass particles orbiting a black hole
+            </div>
+            <div>
+                <img src="images\BlackholeSimRungeKutta.png" class="demoPic" id="Fig36"/>
+                Figure 36: Python Implementation of a Runge-Kutta 4th Solver
+                </div>
+                <div>
+                    <img src="images\BlackholeSimGeodesics.png" class="demoPic" id="Fig37"/>
+                    Figure 37: Python Implementation of Schwarzschild geodesic equations
+                    </div>
+
+</div>
+</div>
+    
+    <div id = "endSlide" >
+        <h1 id="endSlideTitle">
+            Contact
+        </h1>
+        <h2 id="endSlideContactInfo">
+            <dt>Problem</dt>
+            <dd>xxxr</dd>
+            <dd>lxxx</dd>
+            <dd>xxx</dd>
+        </h2>
+        <div>
+            <img src="images\BlackholeSimOriginal.png" class="demoPic" id="Fig38"/>
+            Figure 38: Jean-Pierre Luminet’s Simulation of a Black Hole 1978
+            </div>
         </div>
 
 </body>
